@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>a naya</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">a naya</div>
+        <ul class="nav"></ul>
+        <li>
+          <a href="index.html">집</a>
+        </li>
+        <li>
+          <a href="about.html">집 에대하여</a>
+        </li>
+        <li>
+          <a href="contact.html">연락처</a>
+        </li>
+      </div>
+    </nav>
+
+    <!-- 최고의 집 -->
+    <section class="main">
+      <div class="container">
+        <h1>a naya</h1>
+        <h3>
+          좋은 집을 위한 메뉴얼: <a href="https://www.zigbang.com/">직방 </a>
+        </h3>
+      </div>
+
+      <!-- 메인세션 -->
+      <section class="main">
+        <div class="container">
+          <h1>숙박 업소</h1>
+          <h3>
+            좋은 숙소 구하기 :
+            <a
+              href="https://www.yanolja.com/?utm_source=google_sa&utm_medium=cpc&utm_campaign=20738115572&utm_content=160897187931&utm_term=kwd-327025203539&gad_source=1&gclid=CjwKCAjw17qvBhBrEiwA1rU9wzmQOTfce3hs_jslf7A-V-I5ElRggiCMCHrX_7IZhL6P4Y-hG7__FxoC7boQAvD_BwE"
+              >야 놀자</a
+            >
+          </h3>
+
+          <p>좋은 숙소의 3가지 기본 요소</p>
+
+          <h3>현재시간 : <span id="time"></span></h3>
+
+          <hr />
+
+          <p>
+            배경색 변경 :
+            <button onclick="lightbule()">lightbule</button>
+            <button onclick="pink()">pink</button>
+            <button onclick="brwon()">brwon</button>
+          </p>
+
+          <p>
+            배워 봅시다 :
+            <button onmouseover="showcat()" onmouseout="hide()">cat</button>
+            <button onmouseover="showdog()" onmouseout="hide()">dog</button>
+            <button onmouseover="showpig()" onmouseout="hide()">pig</button>
+            <button onmouseover="showKCW()" onmouseout="hide()">KCW</button>
+          </p>
+          <hr />
+          <br />
+          <div>
+            <img id="fig" height="200px" />
+            <p id="desc"></p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
