@@ -36,3 +36,16 @@ function hide() {
   document.getElementById('fig').src = '';
   document.getElementById('desc').innerHTML = '';
 }
+
+function validateForm() {
+  var username = document.getElementById('username').value;
+  var password = document.getElementById('password').value;
+
+  if (username === 'yhs3748' && password === '92113748') {
+    alert('환영합니다');
+    return true;
+  } else {
+    alert('아이디와 비밀번호를 다시 확인해주세요');
+    return false;
+  }
+}
